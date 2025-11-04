@@ -1,3 +1,8 @@
+body {
+    font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+    margin: 0;
+}
+
 .logo {
     height: 50px;
     border-radius: 50px;
@@ -7,9 +12,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid;
     height: 70px;
-    background-color: white;
+    background-color: #000;
+    color: white;
 }
 
 .left-side {
@@ -29,28 +34,23 @@
     margin: 0;
     font-size: 20px;
     font-weight: bold;
+    color: blue;
 }
 
 .left-side .site-subtitle {
     margin: 4px 0 0 0;
     font-size: 14px;
     font-weight: normal;
-    color: #333;
+    color: white;
 }
 
 .right-side {
     margin: 5px 20px 0px 0px;
+    font-weight: bold;
 }
 
 .nav-text {
     margin-left: 30px;
-}
-
-.main-titles {
-    display: flex;
-    justify-content: center;
-}
-
-.title-main {
-    color: rgb(248, 246, 238);
+    text-decoration: none;
+    color: white;
 }
